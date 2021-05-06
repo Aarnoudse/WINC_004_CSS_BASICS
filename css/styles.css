@@ -1,0 +1,67 @@
+body {
+    font-family: Century Gothic, Lato, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+nav{text-align: left;
+    border: 4px solid rgba(255, 255, 255, 0.212);
+}
+
+h1, main { 
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    padding: 0 2em;	
+    }
+
+h1 {
+    letter-spacing: 1rem;     
+    }
+
+h3 {
+        letter-spacing: 0.3rem;
+        opacity: 0.6;
+    }
+
+h1, h2, h3, p, ul, ol {
+    color:rgb(255, 255, 255);
+    }
+    
+
+p {
+    line-height: 1em;
+}
+
+.custom1 {
+    color: rgb(255, 153, 0);
+    }
+
+#custom2 {
+    color: rgb(139, 123, 70);
+    letter-spacing: 0.8rem;;
+}
+
+hr {
+    color: grey;
+    line-height: 1em;
+}
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  img {
+    width: 150px;
+    border-radius: 8px;
+      }
+
+  img:hover {
+    width: 150px;
+    transform: scaleX(-1);
+    border-radius: 8px;   
+  }
+  
